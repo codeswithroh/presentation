@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Otomanopee+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.introduction {
+    height: 100vh;
+    background-image: linear-gradient(94.3deg, rgba(26, 33, 64, 1) 10.9%, rgba(81, 84, 115, 1) 87.1%);
+    position: relative;
+    overflow: hidden;
+}
+
+.person {
+    position: absolute;
+    bottom: 0;
+    right: 5em;
+    z-index: 3;
+}
+
+.board {
+    position: absolute;
+    top: 2em;
+    left: 12em;
+    z-index: 1;
+}
+
+.ca4 {
+    position: absolute;
+    bottom: 0em;
+    left: 18em;
+    color: yellow;
+    text-align: center;
+}
+
+.ca4 h1 {
+    font-size: 4rem;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.ca4>h1>span {
+    padding: 0 0.1em;
+}
+
+.ca4>h1>span:hover {
+    background: yellow;
+    color: black;
+    transition: 0.8s;
+}
+
+.ca4 button {
+    margin: 2em 0;
+    font-size: 1.8rem;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+    background-color: rgb(255, 14, 195);
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px 4px rgb(255, 14, 195);
+    transition: 0.8s;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.ca4 button:hover {
+    background-color: white;
+    color: rgb(255, 14, 195);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 4px white;
+}
+
+#ca4-first {
+    margin-right: 0.2em;
+}
+
+@media screen and (max-width:400px) {
+    .person {
+        bottom: 0;
+        right: -4em;
+    }
+
+    .person img {
+        width: 85%;
+    }
+
+    .board {
+        left: 0em;
+        margin:0 0.5em;
+    }
+
+    .board img {
+        width: 100%;
+    }
+
+    .ca4 {
+        left: 1em;
+        text-align: left;
+        bottom: 1em;
+    }
+
+    .ca4 h1 {
+        font-size: 2.1rem;
+        display: flex;
+        flex-direction: column;
+        gap:0.5em;
+    }
+
+    #ca4-first {
+        font-size:3rem;
+    }
+
+    .ca4 button {
+        font-size: 1.5rem;
+    }
+
+
+}
