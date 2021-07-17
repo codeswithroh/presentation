@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Otomanopee+One&display=swap');
+
+.member-container {
+    background-image: url('../assets/svg-content/design-second.svg');
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.member-heading {
+    color: yellow;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: underline wavy white;
+    position: absolute;
+    top: 1em;
+}
+
+.member-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+    margin:10em 1em;
+    flex-wrap: wrap;
+}
+
+.member-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 1em 2em;
+    color:aqua;
+}
+
+.member-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-top:0.5em;
+    margin-bottom: 1em;
+}
+
+.member-role {
+    font-size: 1.7rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.member-pic {
+    width: 7em;
+    height: 7em;
+    background-image: url('../assets/pngs/members/rohit.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 50%;
+}
+.member-pic1 {
+    width: 7em;
+    height: 7em;
+    background-image: url('../assets/pngs/members/sanjana.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 50%;
+}
+.member-pic2 {
+    width: 7em;
+    height: 7em;
+    background-image: url('../assets/pngs/members/indradeep.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 50%;
+}
+.member-pic3 {
+    width: 7em;
+    height: 7em;
+    background-image: url('../assets/pngs/members/ayush.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 50%;
+}
+.member-pic4 {
+    width: 7em;
+    height: 7em;
+    background-image: url('../assets/pngs/members/ayush.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-radius: 50%;
+}
+.farewell-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: fixed;
+    bottom:0.5em;
+    right:1em;
+    background:yellow;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5em;
+    font-size:1.5rem;
+    padding:0.5em 1.5em;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.farewell-button:hover {
+    background:black;
+    color:yellow;
+}

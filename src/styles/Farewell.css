@@ -1,0 +1,7 @@
+.farewell {
+    background-image: url('../assets/pngs/members/last.png');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

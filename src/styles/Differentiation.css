@@ -1,0 +1,71 @@
+::selection {
+    background-color: rebeccapurple;
+    color: white;
+}
+.graph {
+    width: 60%;
+    margin:1rem auto;
+    text-align: center;
+    transform: translateX(40%);
+}
+.differentiation-main {
+    background-image: url('../assets/svg-content/design-second.svg');
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+.differentiation-heading {
+    color:#ff01ff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: underline wavy white;
+}
+.differentiation-content {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    max-width: 35em;
+    margin: 0.5em auto;
+}
+.differentiation-content p{
+    margin:1em auto;
+}
+.integration-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: fixed;
+    bottom:0.5em;
+    right:1em;
+    background:yellow;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5em;
+    font-size:1.5rem;
+    padding:0.5em 1.5em;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.integration-button:hover {
+    background:black;
+    color:yellow;
+}
+@media screen and (max-width:400px) {
+    .differentiation-heading {
+        font-size: 1.4rem;
+    }
+    .differentiation-content {
+        font-size: 1rem;
+        margin:0 1em;
+    }
+    .integration-button {
+        font-size:0.8rem;
+    }
+}

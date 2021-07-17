@@ -1,0 +1,61 @@
+::selection {
+    background-color: rebeccapurple;
+    color: white;
+}
+.history-main {
+    background-image: url('../assets/svg-content/design-second.svg');
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    position: relative;
+}
+.history-heading {
+    color:#ff01ff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: underline wavy white;
+}
+.history-content {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    max-width: 35em;
+    margin: 0.5em auto;
+}
+.differentiation-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    bottom:0.5em;
+    right:1em;
+    background:yellow;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5em;
+    font-size:1.5rem;
+    padding:0.5em 1.5em;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.differentiation-button:hover {
+    background:black;
+    color:yellow;
+}
+@media screen and (max-width:400px) {
+    .history-heading {
+        font-size: 1.6rem;
+    }
+    .history-content {
+        font-size: 1.2rem;
+        margin:0 1em;
+    }
+    .differentiation-button {
+        font-size:0.8rem;
+    }
+}
