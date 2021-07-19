@@ -25,7 +25,7 @@ export default function History() {
           (1646–1716).
         </p>
         <h2>Citations:</h2>
-        <p><a href="https://www.britannica.com/science/numerical-analysis/Historical-background">● Britannica</a></p>
+        <p><a style={{color:'white'}} href="https://www.britannica.com/science/numerical-analysis/Historical-background">● Britannica</a></p>
       </div>
       <div style={{color:"transparent"}}>...</div>
       <Link to='/differentiation'>
