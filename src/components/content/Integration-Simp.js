@@ -9,9 +9,11 @@ import Simp4 from "../../assets/pngs/simp/simp-4.png";
 import Simp5 from "../../assets/pngs/simp/simp-5.png";
 import Simp6 from "../../assets/pngs/simp/simp-6.png";
 import Simp7 from "../../assets/pngs/simp/simp-7.png";
+import Nav from "./Nav";
 export default function IntegrationSimp() {
   return (
     <div className='integration-main'>
+      <Nav />
       <div className='integration-heading'>
         <h1>Integration</h1>
       </div>
@@ -76,6 +78,8 @@ export default function IntegrationSimp() {
         <p>By Simpson's 1/3rd rule, we have,</p>
         <img className='graph' src={Simp7} alt='sheet'></img>
         <p>Thus, our program is quite accurate</p>
+        <h2>Citations:</h2>
+        <p><a style={{color:'white'}} href="http://mathforcollege.com/nm/mws/gen/07int/mws_gen_int_txt_simpson13.pdf">● Link 1</a></p>
       </div>
       <div style={{ color: "transparent" }}>...</div>
       <Link to='others'>

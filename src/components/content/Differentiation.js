@@ -4,6 +4,7 @@ import "../Introduction.css";
 import Graph from "../../assets/pngs/graph.png";
 import Csv from "../../assets/pngs/diff-csv.png";
 import { Link } from "react-router-dom";
+import Nav from "./Nav";
 export default function Differentiation() {
   const handleClick = () => {
     window.scrollTo({
@@ -13,6 +14,7 @@ export default function Differentiation() {
   };
   return (
     <div className='differentiation-main'>
+      <Nav />
       <div className='differentiation-heading'>
         <h1>Differentiation</h1>
       </div>
@@ -70,6 +72,8 @@ export default function Differentiation() {
           number of rows is quite massive as the difference between two
           consecutive values of x is only 0.01)
         </p>
+        <h2>Citations:</h2>
+        <p>●	<a style={{color:'white'}} href="https://en.wikipedia.org/wiki/Numerical_differentiation#:~:text=Numerical%20differentiation%20From%20Wikipedia%2C%20the%20free%20encyclopedia%20In,function%20and%20perhaps%20other%20knowledge%20about%20the%20function.">Numerical differentiation - Wikipedia</a></p>
       </div>
       <div style={{ color: "transparent" }}>...</div>
       <Link to='/integration'>

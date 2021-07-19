@@ -6,6 +6,7 @@ import Graph from "../../assets/pngs/graph-integration.png";
 import Csv from "../../assets/pngs/csv-integration.png";
 import Trape from './Integration-trape';
 import { useState } from "react";
+import Nav from "./Nav";
 export default function Integration() {
   const [next, setNext] = useState(false);
   const handleClick = (e) => {
@@ -22,6 +23,7 @@ export default function Integration() {
         <Trape></Trape>
       ) : (
         <div className='integration-main'>
+          <Nav></Nav>
           <div className='integration-heading'>
             <h1>Integration</h1>
           </div>
@@ -87,6 +89,8 @@ export default function Integration() {
               screenshot since the number of rows is quite massive as the width
               has been set to 0.001)
             </p>
+            <h2>Citations:</h2>
+            <p>●	<a style={{color:'white'}} href="https://simple.wikipedia.org/wiki/Numerical_integration#:~:text=From%20Simple%20English%20Wikipedia%2C%20the%20free%20encyclopedia%20Ancient,integral.%20Numerical%20integration%20has%20also%20been%20called%20quadrature.">Numerical integration - Wikipedia</a></p>
           </div>
           <div style={{ color: "transparent" }}>...</div>
           <div

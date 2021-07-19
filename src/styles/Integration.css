@@ -69,9 +69,10 @@
     background:black;
     color:yellow;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     .integration-heading {
         font-size: 1.4rem;
+        padding-top: 2em;
     }
     .integration-content {
         font-size: 1rem;

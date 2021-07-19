@@ -10,7 +10,8 @@ export default function Pagecontent() {
         <img src={circle} alt='' />
       </div>
       <div className='page-topic-title'>
-        <h2>Integration and differentiation with application</h2>
+        <h1 style={{textAlign:'left'}}>Numerical Computation</h1>
+        <h3>Integration and differentiation with application</h3>
       </div>
       <div className='page-content-main'>
         <Link style={{ textDecoration: "none" }} to='/overview'>

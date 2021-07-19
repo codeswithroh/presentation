@@ -49,7 +49,10 @@
 .page-content-first > span:hover {
     letter-spacing: 0.2em;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
+    .page-content-main {
+        margin-top:3em;
+    }
     .page-content-first {
         margin-top:1em;
     }

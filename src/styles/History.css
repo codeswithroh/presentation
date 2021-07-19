@@ -47,13 +47,15 @@
     background:black;
     color:yellow;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     .history-heading {
         font-size: 1.6rem;
+        padding-top: 2em;
     }
     .history-content {
         font-size: 1.2rem;
         margin:0 1em;
+        padding-bottom: 2em;
     }
     .differentiation-button {
         font-size:0.8rem;

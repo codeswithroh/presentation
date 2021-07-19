@@ -10,6 +10,7 @@ import Trape5 from "../../assets/pngs/trape/trape-5.png";
 import Trape6 from "../../assets/pngs/trape/trape-6.png";
 import Trape7 from "../../assets/pngs/trape/trape-7.png";
 import { useState } from "react";
+import Nav from "./Nav";
 export default function IntegrationTrape() {
   const [nextnext, setNextNext] = useState(false);
   const handleClick = (e) => {
@@ -26,6 +27,7 @@ export default function IntegrationTrape() {
         <IntegrationSimp></IntegrationSimp>
       ) : (
         <div className='integration-main'>
+          <Nav></Nav>
           <div className='integration-heading'>
             <h1>Integration</h1>
           </div>
@@ -53,7 +55,7 @@ export default function IntegrationTrape() {
             <p>1. Start</p>
             <p>2. Define Function f(x)</p>
             <p>3. Input lower_limit, upper_limit, sub_interval</p>
-            <p>4. h = (lower_limit - upper_limit)/sub_interval</p>
+            <p>4. h = (upper_limit - lower_limit)/sub_interval</p>
             <p>5. integration = f(lower_limit) + f(upper_limit)</p>
             <p>6. i = 1</p>
             <p>7. While i &#8249;= sub_interval</p>
@@ -82,6 +84,9 @@ export default function IntegrationTrape() {
             <p>By Trapezoidal rule, we have,</p>
             <img className='graph' src={Trape7} alt='sheet'></img>
             <p>Thus, our program is quite accurate</p>
+            <h2>Citations:</h2>
+            <p><a style={{color:'white'}} href="http://www.codesansar.com/">● Link 1</a></p>
+            <p><a style={{color:'white'}} href="https://livedu.in/">● Link 2</a></p>
           </div>
           <div style={{ color: "transparent" }}>...</div>
           <div

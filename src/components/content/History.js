@@ -2,9 +2,11 @@ import React from "react";
 import "../../styles/History.css";
 import "../Introduction.css";
 import { Link } from "react-router-dom";
+import Nav from "./Nav";
 export default function History() {
   return (
     <div className='history-main'>
+      <Nav />
       <div className='history-heading'>
         <h1>History</h1>
       </div>
@@ -22,6 +24,8 @@ export default function History() {
           of calculus by Isaac Newton (1642–1727) and Gottfried Leibniz
           (1646–1716).
         </p>
+        <h2>Citations:</h2>
+        <p><a href="https://www.britannica.com/science/numerical-analysis/Historical-background">● Britannica</a></p>
       </div>
       <div style={{color:"transparent"}}>...</div>
       <Link to='/differentiation'>

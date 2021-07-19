@@ -47,9 +47,10 @@
     background:black;
     color:yellow;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     .overview-heading {
         font-size: 1.6rem;
+        padding-top: 2em;
     }
     .overview-content {
         font-size: 1.2rem;

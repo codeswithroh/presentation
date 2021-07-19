@@ -2,9 +2,11 @@ import React from "react";
 import "../../styles/overview.css";
 import "../Introduction.css";
 import { Link } from "react-router-dom";
+import Nav from "./Nav";
 export default function OverView() {
   return (
     <div className='overview-main'>
+      <Nav />
       <div className='overview-heading'>
         <h1>Overview</h1>
       </div>

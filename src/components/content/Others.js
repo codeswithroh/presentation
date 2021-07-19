@@ -11,6 +11,7 @@ import Prac6 from "../../assets/pngs/prac/prac-6.png";
 import Prac7 from "../../assets/pngs/prac/prac-7.png";
 import Prac8 from "../../assets/pngs/prac/prac-8.png";
 import Prac9 from "../../assets/pngs/prac/prac-9.png";
+import Nav from "./Nav";
 
 export default function Others() {
   useEffect(()=>{
@@ -18,6 +19,7 @@ export default function Others() {
   },[])
   return (
     <div className='integration-main'>
+      <Nav />
       <div className='integration-heading'>
         <h1>Practical Uses</h1>
       </div>
@@ -96,6 +98,8 @@ export default function Others() {
         </p>
         <img className='graph' src={Prac9} alt='sheet'></img>
         <p>Thus, our program is quite accurate</p>
+        <h2>Citations:</h2>
+        <p>●	<a style={{color:'white'}} href="https://en.wikipedia.org/wiki/Sampling_(signal_processing)">Sampling (signal processing) - Wikipedia</a></p>
       </div>
       <div style={{ color: "transparent" }}>...</div>
       <Link to='members'>
